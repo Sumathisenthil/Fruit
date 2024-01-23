@@ -1,0 +1,61 @@
+.wrapper{
+    margin-top: 50px;
+}
+.wrapper h1{
+    font-size:36px;
+    text-align:center;
+}
+.wrapper .input{
+    position:relative;
+    width:100px;
+
+    background:slategray;
+    margin:30px 0;
+}
+.input-box input{
+    width:100px;
+ 
+    background:transparent;
+    border:none;
+    outline: none;
+    border:2px solid rgba(red, green, blue, alpha);
+    border-radius:40px;
+    font-size:16px;
+    color:rgba(240, 255, 255, 0);
+    padding:20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color:rgb(15, 238, 238);
+}
+.input-box .icon{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform: translate(-50%);
+    font-size:16px;
+}
+.wrapper .remember-forget{
+    dispaly:flex;
+    justify-content:space-between;
+    font-size:14.5px;       
+    margin:-15px 0 15px;
+}
+.remember-forget label input{
+    accent-color:#eb1818;
+    text-decoration:none;
+}
+.remember-forget a:hover{
+    text-decoration:underline;
+}
+.wrapper button{
+    width:200px;
+    height:50px;
+    background:#ffffff;
+    outline: none;
+    border-radius:  40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor:pointer;
+    font-size: 16px;
+    
+    font-weight: 700;
+}
